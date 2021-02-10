@@ -9,6 +9,9 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(() => {
-    // your code here
-})();
+const getValue = () => {
+    let input = document.getElementById("color").value;
+    document.body.style.backgroundColor=input;
+}
+
+

@@ -12,5 +12,20 @@
 (() => {
     document.getElementById("run").addEventListener("click", () => {
         // your code here
+        
     });
 })();
+
+let nombre = 0;   // on commence à 0
+let max = 19;     // nombre maximum
+var result = "";  // la chaine résultat
+while( nombre < max){
+  // ajout à la chaine résultat
+  result = result + nombre +"-"
+  // incrémentation de nombre
+  nombre = nombre + 2;
+}
+// ajout nommbre maximum
+result = result + nombre;
+// affiche résultat
+console.log(result)

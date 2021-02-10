@@ -9,6 +9,13 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(() => {
-    // your code here
-})();
+
+
+//http://morganridel.fr/generer-des-couleurs-aleatoires-en-javascript
+
+const getValue = () => {
+    let input = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+    document.body.style.backgroundColor=input;
+}
+
+
