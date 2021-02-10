@@ -9,7 +9,18 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(() => {
-    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
-    // your code here
-})();
+now = new Date();
+annee = now.getFullYear();
+mois = now.getMonth() + 1;
+jour = now.getDate();
+heure = now.getHours();
+minute = now.getMinutes();
+seconde = now.getSeconds();
+
+if (heure < 17, minute < 30)
+{
+document.getElementById("target").innerHTML = "Bonjour"}
+
+else
+{
+document.getElementById("target").innerHTML = "Bonsoir"}
